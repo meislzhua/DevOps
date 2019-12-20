@@ -3,6 +3,7 @@
 这里不详细介绍docker的各种详细内容,只说明需要用到的部分
 
 如果你不太了解docker,建议看一遍 [<Docker — 从入门到实践>](https://yeasy.gitbooks.io/docker_practice/content/),这个是我用来学习docker的,详细内容基本都有如只想了解本文章内容,也可以不看(但还是建议看,花不了多少时间,粗略学习花个一两天就差不多了)
+
 本文章属于 [<DevOps - 从入门到出门>](https://github.com/meislzhua/DevOps)的一部分,属于前置文
 
 ## 简单的安装和运行docker
@@ -28,10 +29,8 @@ docker run hello-world
 ```
 
 
-<div style="text-align:center;">
-    <img src="./img/docker/install.gif">
-    <p>docker安装全过程</p>
-</div>
+
+![docker安装全过程](img/docker/install.gif) 
 
 如果你是国内的环境,建议加个速,这里介绍的是阿里云的加速服务(目前的,不知道以后会不会改)
 
@@ -98,14 +97,11 @@ $ docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart always -v /
 docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock  portainer/portainer
 ```
 
-<div style="text-align:center;">
-    <img src="./img/docker/portainer_install.gif">
-    <p>portainer配置过程</p>
-</div>
-<div style="text-align:center;">
-    <img src="./img/docker/portainer_install.gif">
-    <p>portainer使用实例:jenkins的安装</p>
-</div>
+
+![portainer配置过程](img/docker/portainer_install.gif) 
+
+
+![portainer使用实例:jenkins的安装](img/docker/jenkins_install.gif) 
 
 ### 请学习更多命令
 虽然说自己操作维护的时候,可以使用图形化界面,不用慢慢敲命令,但是编写脚本的时候,还是需要编写命令的!

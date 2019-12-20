@@ -17,6 +17,7 @@ DevOps（Development和Operations的组合词）是一组过程、方法与系�
 ### 系列目标
 1. 可以释放双手,不需要再频繁的手动部署
 2. 不求精通后台运维知识,但求掌握一个有用的技能,实现从入门到出门
+3. 希望通过文章的介绍,你能创造属于自己的玩法
 
 ### 适合人群
 * 需要自己部署系统的前端同学
@@ -24,7 +25,7 @@ DevOps（Development和Operations的组合词）是一组过程、方法与系�
 * 想要成为及格的项目经理的同志
 
 ## 系列文章
-1. DevOps系列 - docker的基础应用 (未更新)
+1. [DevOps系列 - docker的基础应用](docker.md)
 2. DevOps系列 - jenkins的基础应用 (未更新)
 3. DevOps系列 - 基于docker&jenkins持续集成 (未更新)
 
