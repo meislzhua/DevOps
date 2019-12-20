@@ -98,9 +98,10 @@ docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart always -v /va
 ```
 
 
+#### portainer配置过程
 ![portainer配置过程](img/docker/portainer_install.gif) 
 
-
+#### portainer使用实例:jenkins的安装
 ![portainer使用实例:jenkins的安装](img/docker/jenkins_install.gif) 
 
 ### 请学习更多命令
